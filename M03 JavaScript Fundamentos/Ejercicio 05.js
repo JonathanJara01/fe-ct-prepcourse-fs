@@ -8,12 +8,12 @@ function esPositivo(num) {
    // Si el número es negativo ---> "Es negativo".
    // Si el número es 0, devuelve false.
    // Tu código:
-        if (Math.sign(num * 1)){
+        if (num > 0){
          return "Es positivo"
         }
-        if (Math.sign(num * -1)){
+        if (num < 0){
          return "Es negativo"
-        } else (Math.sign(num * (0)))
+        } else (num === 0)
          return false    
     }
     
